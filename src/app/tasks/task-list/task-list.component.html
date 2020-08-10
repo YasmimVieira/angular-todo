@@ -1,0 +1,21 @@
+<section class="mt-5">
+  <h2>Tarefas</h2>
+  <hr>
+  <button type="button" class="btn btn-primary mb-2" [routerLink]="['/new']">Nova tarefas</button>
+</section>
+<section>
+  <ul class="list-group">
+    <li class="list-group-item" *ngFor="let task of tasks" >
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input">
+      </div>
+      <div class="task-item-description"></div>
+      <div>
+        <button type="button" class="btn btn-primary mr-1">Alterar</button>
+      </div>
+      <div>
+        <button type="button" class="btn btn-danger">Excluir</button>
+      </div>
+    </li>
+  </ul>
+</section>
