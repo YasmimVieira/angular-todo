@@ -1,18 +1,27 @@
 # ToDoAppAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
+Esse projeto é uma aplicação simples de TodoList, visando aprender conceitos básicos de Angular
 
-## Development server
+![gif](https://github.com/YasmimVieira/angular-todo/blob/master/src/assets/ToDoAppAngular.gif)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Tecnologias
 
-## Code scaffolding
+ Tecnologias | Versão |
+ ------ |------|
+  Angular | v10.0.6 |
+  Bootstrap | 4.5.2 |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Rodando o projeto
 
-## Build
+```sh
+$ cd ToDoAppAngular
+$ npm i
+$ ng serve
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Referências de projeto
+
+[Fabrica-de-código-academy](https://app.fabricadecodigoacademy.com/)
 
 ## Running unit tests
 
@@ -22,6 +31,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+Autora
+----
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Desenvolvido por [Yasmim Barbosa Vieira](https://www.linkedin.com/in/yasmim-barbosa/) - Desenvolvedora Front-end
