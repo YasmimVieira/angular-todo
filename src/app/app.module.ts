@@ -8,6 +8,10 @@ import { TaskListComponent } from './tasks/task-list/task-list.component';
 import { TaskListItemComponent } from './tasks/task-list-item/task-list-item.component';
 import { TaskFormComponent } from './tasks/task-form/task-form.component';
 import { TaskComponent } from './tasks/shared/task/task.component';
+import { LoginComponent } from './account/login/login.component';
+import { CreateAccountComponent } from './account/create-account/create-account.component';
+import { HomeComponent } from './layout/home/home.component';
+import { AuthenticationComponent } from './layout/authentication/authentication.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { TaskComponent } from './tasks/shared/task/task.component';
     TaskListComponent,
     TaskListItemComponent,
     TaskFormComponent,
-    TaskComponent
+    TaskComponent,
+    LoginComponent,
+    CreateAccountComponent,
+    HomeComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,
