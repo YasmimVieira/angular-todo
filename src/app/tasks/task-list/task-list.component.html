@@ -8,7 +8,7 @@
     Nenhuma tarefa foi encontrada
   </div>
   <ul class="list-group" *ngIf="tasks.length > 0">
-    <li class="list-group-item task-item" *ngFor="let task of tasks" >
+    <li class="list-group-item" *ngFor="let task of tasks" >
       <app-task-list-item [task]="task" class="task-item"></app-task-list-item>
     </li>
   </ul>

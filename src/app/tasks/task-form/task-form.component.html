@@ -1,1 +1,15 @@
-<p>task-form works!</p>
+<header>
+  <h2>{{ title }}</h2>
+  <hr>
+</header>
+
+<section id="form">
+  <form (ngSubmit)="onSubmit()" >
+    <div class="form-froup">
+      <label for="">Descrição</label>
+      <textarea [(ngModel)]="task.description" name="description" id="" rows="5" class="form-control"></textarea>
+      <button type="submit" class="btn btn-primary mr-2 mt-3">Salvar</button>
+      <button type="button" class="btn btn-secondary mt-3" [routerLink]="['']">Cancelar</button>
+    </div>
+  </form>
+</section>

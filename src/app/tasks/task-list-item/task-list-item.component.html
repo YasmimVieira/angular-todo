@@ -1,5 +1,5 @@
 <div class="form-group form-check">
-  <input type="checkbox" class="form-check-input">
+  <input type="checkbox" class="form-check-input" [(ngModel)]="task.completed" (change)="onCompletedCheckChange(task)" >
 </div>
 <div class="task-item-description" [ngClass]="task.completed ? 'task-completed' : ''">{{ task.description }}</div>
 <div>
@@ -7,5 +7,5 @@
     routerLinkActive="router-link-active">Alterar</button>
 </div>
 <div>
-  <button type="button" class="btn btn-danger">Excluir</button>
+  <button type="button" class="btn btn-danger" (click)="remove(task)">Excluir</button>
 </div>
