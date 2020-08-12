@@ -1,6 +1,6 @@
-<div class="card">
+<div class="card shadow-lg bg-white rounded">
     <div class="card-header">
-        <h2 class="text-center">Entrar</h2>
+        <h2 class="text-center">Criar conta</h2>
     </div>
     <form (ngSubmit)="onSubmit()" #form="ngForm">
         <div class="form-group">
@@ -15,6 +15,7 @@
           <label>Senha</label>
           <input class="form-control" type="password" name="password" id="password" [(ngModel)]="account.password" required />
         </div>
-        <button type="button" class="btn btn-link btn-block" [disabled]="form.form.invalid">Criar minha conta</button>
+        <button type="button" class="btn btn-account btn-block" [disabled]="form.form.invalid">Criar minha conta</button>
+        <button type="button" class="btn btn-login btn-block" [routerLink]="['/login']">Voltar para o login</button>
       </form>
 </div>

@@ -3,3 +3,36 @@
 form {
     padding: 5%
 }
+
+.card {
+    width: 25vw;
+}
+
+.btn-login, .btn-account {
+    color: #FFFF;
+    cursor: pointer;
+}
+
+.btn-login {
+    background-color: #3c6382;
+}
+
+.btn-account {
+    background-color: #0a3d62;
+}
+
+.btn-login:hover, .btn-account:hover {
+    color: #FFFF;
+}
+
+@media(max-width: 1440px) {
+    .card {
+        width: 40vw;
+    }
+}
+
+@media(max-width: 567px) {
+    .card {
+        width: 100%;
+    }
+}
